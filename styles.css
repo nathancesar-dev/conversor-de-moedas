@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: rgba(138, 81, 252, 1);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 }
 
 .logo {
-    width: 300px;
+    width: 180px;
     display: block;
     margin: 20px auto;
 }
@@ -22,6 +22,7 @@ main {
     border-radius: 30px;
     margin: 0 auto 40px;
     padding: 44px 24px 23px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
 }
 
 label {
@@ -30,7 +31,8 @@ label {
     font-size: 14px;
 }
 
-select, input {
+select,
+input {
     background-color: #FFFFFF;
     border: 1px solid #BBBBBB;
     border-radius: 4px;
@@ -45,9 +47,9 @@ select, input {
     cursor: pointer;
 }
 
-button{
+button {
     border-radius: 5px;
-    background-color: #772FD3;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     width: 100%;
     border: none;
     height: 48px;
@@ -56,15 +58,19 @@ button{
     font-weight: 700;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     opacity: .8;
-}
-button:active{
-    opacity: .6;
+    background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
 }
 
-section{
-    border: 1px solid #772FD3;
+button:active {
+    opacity: .3;
+    
+}
+
+section {
+    border: 1px solid #203a43;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;
@@ -73,24 +79,31 @@ section{
     align-items: center;
 }
 
-.arrow{
+.arrow {
     margin: 15px;
+    width: 32px;
+    opacity: 0.8;
 }
 
-.currency-box{
+.currency-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
 }
 
-.currency{
+.currency {
     color: #777777;
     font-size: 14px;
 }
 
-.currency-value{
+.currency-value {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+.img {
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 75px;
 }
