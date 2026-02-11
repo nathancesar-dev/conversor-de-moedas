@@ -12,7 +12,7 @@ Projeto focado em **lógica de conversão**, **formatação correta de valores**
 ## 🛠️ Tecnologias
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)
+- JavaScript
 
 ## 📌 Observação
 Os valores de conversão são fixos e utilizados apenas para fins de estudo.
